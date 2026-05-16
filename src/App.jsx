@@ -4,6 +4,8 @@ import WhatsAppButton from './components/WhatsAppButton.jsx'
 import ScrollProgress from './components/ScrollProgress.jsx'
 import Hero from './sections/Hero.jsx'
 import Stats from './sections/Stats.jsx'
+import IvaBanner from './sections/IvaBanner.jsx'
+import Brands from './sections/Brands.jsx'
 import Services from './sections/Services.jsx'
 import WhyUs from './sections/WhyUs.jsx'
 import Featured from './sections/Featured.jsx'
@@ -78,7 +80,9 @@ export default function App() {
       <Header />
       <main>
         <Hero />
+        <IvaBanner />
         <Stats />
+        <Brands />
         <Services />
         <WhyUs />
         <Featured />

@@ -294,6 +294,105 @@ h1, h2, h3, h4 { color: var(--heading); line-height: 1.16; font-weight: 800; let
 .hero__scroll span { width: 1px; height: 38px; background: rgba(255,255,255,.5); animation: scrollLine 1.8s ease-in-out infinite; }
 @keyframes scrollLine { 0%,100% { transform: scaleY(.4); opacity:.4 } 50% { transform: scaleY(1); opacity:1 } }
 
+/* ---------- IVA urgency banner ---------- */
+.iva-banner {
+  background: linear-gradient(105deg, #b45309 0%, #d97706 40%, #f59e0b 100%);
+  position: relative; overflow: hidden;
+}
+.iva-banner::before {
+  content: ''; position: absolute; inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.iva-banner::after {
+  content: '6%'; position: absolute; right: -20px; top: 50%; transform: translateY(-50%);
+  font-size: 200px; font-weight: 900; color: rgba(255,255,255,.06); line-height: 1;
+  pointer-events: none; letter-spacing: -.04em;
+}
+.iva-banner__inner {
+  position: relative; z-index: 1;
+  display: grid; grid-template-columns: 1.4fr 1fr auto;
+  align-items: center; gap: 36px; padding-top: 26px; padding-bottom: 26px;
+}
+.iva-banner__badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(0,0,0,.25); color: #fff; border-radius: 999px;
+  font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+  padding: 5px 13px; margin-bottom: 10px;
+  animation: pulseBadge 2.4s ease-in-out infinite;
+}
+@keyframes pulseBadge { 0%,100% { opacity:1 } 50% { opacity:.7 } }
+.iva-banner__title {
+  color: #fff; font-size: clamp(15px, 1.6vw, 19px); font-weight: 600;
+  line-height: 1.35; margin: 0 0 6px;
+}
+.iva-banner__title strong { font-weight: 800; }
+.iva-banner__sub { color: rgba(255,255,255,.85); font-size: 13.5px; margin: 0; }
+.iva-banner__sub strong { color: #fff; }
+
+.iva-banner__perks {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 9px;
+}
+.iva-banner__perks li {
+  display: flex; align-items: center; gap: 9px;
+  color: #fff; font-size: 13.5px; font-weight: 600;
+}
+.iva-banner__perks svg { color: #fff; flex-shrink: 0; }
+
+.iva-banner__ctas {
+  display: flex; flex-direction: column; gap: 10px; align-items: flex-start;
+}
+.iva-banner__btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  border-radius: 999px; font-size: 13.5px; font-weight: 700;
+  padding: 10px 22px; text-decoration: none; transition: transform .18s, opacity .18s;
+  white-space: nowrap;
+}
+.iva-banner__btn:hover { transform: translateY(-2px); opacity: .9; }
+.iva-banner__btn--primary { background: #fff; color: #b45309; }
+.iva-banner__btn--outline {
+  background: transparent; color: #fff;
+  border: 2px solid rgba(255,255,255,.6);
+}
+.iva-banner__contact {
+  color: rgba(255,255,255,.9); font-size: 13px; font-weight: 700;
+  text-decoration: none; letter-spacing: .01em;
+}
+.iva-banner__contact:hover { color: #fff; }
+
+/* ---------- Brands marquee band ---------- */
+.brands-band {
+  background: var(--surface); border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 0; overflow: hidden;
+  display: flex; align-items: center; gap: 32px;
+}
+.brands-band__label {
+  flex-shrink: 0; padding-left: var(--container-pad, 24px);
+  font-size: 11px; font-weight: 800; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--text-muted);
+  white-space: nowrap; padding-right: 32px;
+  border-right: 1px solid var(--border);
+}
+.brands-band__marquee { flex: 1; overflow: hidden; }
+.brands-band__track {
+  display: flex; list-style: none; margin: 0; padding: 0; gap: 0;
+  animation: marquee 28s linear infinite;
+  width: max-content;
+}
+.brands-band__track:hover { animation-play-state: paused; }
+.brands-band__item {
+  padding: 0 36px; font-size: 14px; font-weight: 700;
+  color: var(--navy); opacity: .55; white-space: nowrap;
+  transition: opacity .2s;
+  border-right: 1px solid var(--border);
+}
+.brands-band__item:hover { opacity: 1; }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
 /* ---------- Stats band ---------- */
 .stats { padding: 64px 0; background-size: cover; background-position: center; position: relative; }
 .stats__inner { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
@@ -614,6 +713,11 @@ h1, h2, h3, h4 { color: var(--heading); line-height: 1.16; font-weight: 800; let
   .projects { grid-template-columns: 1fr; }
   .proj--lg { grid-column: auto; }
   .stats__item::after { display: none !important; }
+  .iva-banner__inner { grid-template-columns: 1fr; gap: 20px; }
+  .iva-banner__perks { flex-direction: row; flex-wrap: wrap; gap: 8px 20px; }
+  .iva-banner__ctas { flex-direction: row; flex-wrap: wrap; }
+  .iva-banner::after { display: none; }
+  .brands-band__label { display: none; }
 }
 @media (max-width: 480px) {
   .container { padding: 0 18px; }
