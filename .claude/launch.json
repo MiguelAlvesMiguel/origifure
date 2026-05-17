@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 5173
+    },
+    {
+      "name": "marques",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "D:/nexo/marques-instalacoes", "run", "dev"],
+      "port": 5174
     }
   ]
 }
