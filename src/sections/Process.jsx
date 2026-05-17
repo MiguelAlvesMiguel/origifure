@@ -6,7 +6,7 @@ export default function Process() {
   return (
     <section className="section section--tint">
       <div className="container">
-        <SectionHeading eyebrow="Processo" title="Como funciona" />
+        <SectionHeading eyebrow="O Nosso Processo" title="Como funciona" />
 
         <div className="grid grid--4 process">
           {processSteps.map((s, i) => (
