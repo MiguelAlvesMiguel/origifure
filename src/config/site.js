@@ -237,40 +237,102 @@ export const projects = [
 
 export const testimonials = [
   {
-    text: 'Adquiri a compra e instalação de Painéis Fotovoltaicos e Sistema de Ar Condicionado há cerca de 8 meses. Atendimento de excelência antes e pós venda. Aquando da instalação recorri aos Fundos Ambiental com o excelente apoio do Sr. Lemos que me ajudou na preparação de todo o processo. Empresa e pessoas de excelência! Sugiro sem qq hesitação.',
+    text: 'Adquiri a compra e instalação de Painéis Fotovoltaicos e Sistema de Ar Condicionado há cerca de 8 meses. Atendimento de excelência antes e pós venda. Aquando da instalação recorri aos Fundos Ambiental com o excelente apoio do Sr. Lemos. Empresa e pessoas de excelência! Sugiro sem qq hesitação.',
     name: 'Victor Rodrigues',
-    role: 'Cliente residencial · Painéis Fotovoltaicos & AC',
-    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjXqPSu7kBbYL9cO989SOjzIxq-kfEV5CZ9qxt50JmPSzzcQcJqwsg=s96-c'
+    role: 'Fotovoltaicos & AC',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjXqPSu7kBbYL9cO989SOjzIxq-kfEV5CZ9qxt50JmPSzzcQcJqwsg=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNPem9mTGRBEAE!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgICOzofLdA%7C%7C?hl=en'
   },
   {
-    text: 'I recently had an air conditioning system installed in my apartment by Origifure, and I couldn\'t be happier with their service! The team was highly professional, efficient, and completed the installation with great attention to detail. Everything works perfectly, and they left my place spotless. I highly recommend them!',
+    text: 'I recently had an air conditioning system installed by Origifure, and I couldn\'t be happier! The team was highly professional, efficient, and completed the installation with great attention to detail. They left my place spotless. Highly recommend!',
     name: 'Agnieszka Zarębska',
-    role: 'Residential client · AC Installation',
-    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocIAmO7-KYDUW87dsMukzazb0dfkD6USaw3ZTx2BP0WxT4jT8w=s96-c'
+    role: 'AC Installation',
+    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocIAmO7-KYDUW87dsMukzazb0dfkD6USaw3ZTx2BP0WxT4jT8w=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTURBdUxxS09BEAE!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgMDAuLqKOA%7C%7C?hl=en'
   },
   {
-    text: 'A empresa Origifure, que já à alguns anos me vem prestando serviços de climatização sempre com excelente profissionalismo, mais uma vez assim o fez esta semana ao instalar dois A/C na casa da minha Mãe. Obrigado Sr. Jorge por toda a colaboração e pelo muito bom trabalho! Super recomendo 👌',
+    text: 'A empresa Origifure, que já à alguns anos me vem prestando serviços de climatização sempre com excelente profissionalismo, mais uma vez assim o fez ao instalar dois A/C na casa da minha Mãe. Obrigado Sr. Jorge! Super recomendo 👌',
     name: 'Francisco Leão',
-    role: 'Cliente fiel · Climatização residencial',
-    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVwhd9T4MK9AszBhrxoBWibqY5vRG4_TY6tDHTaDz6pnG0TJNOv=s96-c'
+    role: 'Cliente fiel · Climatização',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVwhd9T4MK9AszBhrxoBWibqY5vRG4_TY6tDHTaDz6pnG0TJNOv=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VNcWt4cDIxaXB1N0dREAE!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEMqkxp21ipu7GQ%7C%7C?hl=en'
   },
   {
-    text: 'Experiência na instalação de dois equipamentos de AC, painéis solares e termo acumulador. Excelente profissional tanto em termos de conhecimento técnico, qualidade do equipamento como também da execução técnica e acompanhamento de garantia.',
+    text: 'Experiência na instalação de dois equipamentos de AC, painéis solares e termo acumulador. Excelente profissional em termos de conhecimento técnico, qualidade do equipamento e execução técnica.',
     name: 'Eduardo Cardoso',
-    role: 'Cliente residencial · AC, Solar & Termoacumulador',
-    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVXNexDWnjFfrbeE-bHouNiV6HTRszFhq2Dl1DuyieHOM6fyFm1=s96-c'
+    role: 'AC, Solar & Termoacumulador',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVXNexDWnjFfrbeE-bHouNiV6HTRszFhq2Dl1DuyieHOM6fyFm1=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2paR1IwVnhiM2M1TVY5VWFXSnJTbmRvTnpObVduYxAB!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CAIQACodChtycF9oOjZGR0Vxb3c5MV9UaWJrSndoNzNmWnc%7C%7C?hl=en'
   },
   {
-    text: 'Recentemente instalei um ar condicionado no meu apartamento em Gaia e recorri à Origifure Climatização. Ainda bem que optei por esta empresa pois tem técnicos altamente especializados realizando um trabalho de excelência, nada é feito ao acaso. Estou muito satisfeito com o trabalho realizado.',
+    text: 'Recentemente instalei um ar condicionado no meu apartamento em Gaia e recorri à Origifure. Técnicos altamente especializados realizando um trabalho de excelência, nada é feito ao acaso. Muito satisfeito!',
     name: 'Albertino Portela',
-    role: 'Cliente residencial, Gaia · AC',
-    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjU7P97nSsY8sQR1gFsJDMWeuMy3Q_B0u2GhgT3BeOtbl8YkDbDw2w=s96-c'
+    role: 'AC residencial, Gaia',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjU7P97nSsY8sQR1gFsJDMWeuMy3Q_B0u2GhgT3BeOtbl8YkDbDw2w=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTURBbFlTY2J3EAE!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgMDAlYScbw%7C%7C?hl=en'
   },
   {
     text: 'Uma excelente empresa. Profissionais do início ao fim do processo. O Sr. Jorge Lemos é um ótimo profissional que cumpre as datas de execução da obra.',
     name: 'Rui Dias',
     role: 'Cliente particular · Climatização',
-    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVZQn4ZgkONH0PDMrgzfzPJOqh7ug4arxxmsJe1nPTZRykL_sp_Sw=s96-c'
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVZQn4ZgkONH0PDMrgzfzPJOqh7ug4arxxmsJe1nPTZRykL_sp_Sw=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURBM1AzSDJRRRAB!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgMDA3P3H2QE%7C%7C?hl=en'
+  },
+  {
+    text: 'Rápido e tudo conforme o combinado, sempre disponíveis para qualquer esclarecimento e muito rápidos na ajuda para tratar do processo com o fundo ambiental. Um grande obrigado a todos!',
+    name: 'Virgílio Tojal',
+    role: 'Fundo Ambiental · Climatização',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjXkCpLcL4Y5z2n0KFbEJ14xRbaxOvzNpS3i6eZfLA2MMu6gKDNy=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURBaGFTRWxRRRAB!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgMDAhaSElQE%7C%7C?hl=en'
+  },
+  {
+    text: 'Atendimento fantástico! Sempre prontos para resolver qualquer questão e com disponibilidade para ajudar, nomeadamente na candidatura ao Apoio do Fundo Ambiental.',
+    name: 'Nuno Correia da Silva',
+    role: 'Apoio FA · Climatização',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjWEeEias52Lpgi2rftXQnpP0AhZeqVI0qdTD2c8WPurXytccTcoSg=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VOT0pvc3ZQdDVQMlZnEAE!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKENOJosvPt5P2Vg%7C%7C?hl=en'
+  },
+  {
+    text: 'Mesmo numa altura de muita procura por instalação de AC, deram rápida resposta! Excelente serviço, recomendo!',
+    name: 'Ana Moura',
+    role: 'AC residencial',
+    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocIeSlvnfADM7zDqrNgcS4XNskzg3b822hiU-cGaKsGZ_Rzg8A=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pkbGExQnBRbUZ6YVhZMFpGOVJaVzFOVEhscGRGRRAB!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CAIQACodChtycF9oOjdla1BpQmFzaXY0ZF9RZW1NTHlpdFE%7C%7C?hl=en'
+  },
+  {
+    text: 'Excelente e eficaz, uma óptima escolha para aquisição e colocação de Ar Condicionado.',
+    name: 'Rui Marcelino Lopes Dias',
+    role: 'AC residencial',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVI3jE-dMOGz8RkEvvXxfMnzXJaVlELjBGzwsu9n7A7HdDjJ-8liA=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUR3Mi1TbVR3EAE!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgMDw2-SmTw%7C%7C?hl=en'
+  },
+  {
+    text: 'Super profissionais, e ajudaram bastante na resolução dos problemas.',
+    name: 'Pedro Azevedo',
+    role: 'Climatização',
+    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocJAqwdyRio6pHouxm7SdQVTu0U0FkLIRgw5MTTOcrIYDq2Kqw=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNRbkplQXVBRRAB!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgMCQnJeAuAE%7C%7C?hl=en'
+  },
+  {
+    text: 'Empresa idónea e responsável. Trabalhos de qualidade. Resolvem.',
+    name: 'Amilcar Esteves',
+    role: 'Climatização',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjUwl3LdmngOtLge2GwFxHkVdIRm4DxVZ-G6AjnuhkSWxjXfTO8A=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURBX0lqQmpBRRAB!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgMDA_IjBjAE%7C%7C?hl=en'
+  },
+  {
+    text: 'Magnífica como sempre!',
+    name: 'Carlos Azevedo',
+    role: 'Cliente fiel',
+    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocLlsbeYfsPIlE2FlA6T7NdXAAqGSkkx0puGu8f5zWsoDA-wIQ=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNZdVpHR2dRRRAB!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CIHM0ogKEICAgMCYuZGGgQE%7C%7C?hl=en'
+  },
+  {
+    text: 'Serviço profissional e atencioso. Recomendo.',
+    name: 'Pedro Batista',
+    role: 'Climatização',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjUdkOp64UYHydRecl5m1efZirgKzA7CAikRJbWSjj_03XOfTmD0=s96-c',
+    reviewUrl: 'https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wSFZrTm5WVU53YzI1cVdVUnpTMlpwTWtWdllrRRAB!2m1!1s0x0:0x89d387d7cbf52673!3m1!1s2@1:CAIQACodChtycF9oOmpHVkNnVUNwc25qWURzS2ZpMkVvYkE%7C%7C?hl=en'
   }
 ]
 
