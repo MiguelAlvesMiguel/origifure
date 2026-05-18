@@ -14,7 +14,9 @@
   --gray-50: #f5f7fa;
   --gray-100: #eef1f5;
   --gray-200: #e2e7ee;
+  --border: #e2e7ee;
   --text: #4a5568;
+  --text-muted: #7a8699;
   --heading: #0b1f33;
 
   --grad-brand: linear-gradient(135deg, #0d78bf 0%, #06b1bc 100%);
@@ -711,6 +713,7 @@ h1, h2, h3, h4 { color: var(--heading); line-height: 1.16; font-weight: 800; let
 }
 .tcard__author { display: flex; align-items: center; gap: 10px; padding-top: 12px; border-top: 1px solid var(--gray-200); }
 .tcard__avatar { width: 38px; height: 38px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid var(--light-blue); }
+.tcard__avatar--initials { display: grid; place-items: center; background: var(--light-blue); color: var(--navy); font-size: 13px; font-weight: 800; border: 1px solid var(--border); }
 .tcard__author strong { display: block; font-size: 13.5px; color: var(--heading); }
 .tcard__author small  { font-size: 11.5px; color: var(--text-muted); }
 
